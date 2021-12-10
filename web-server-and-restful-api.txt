@@ -1,0 +1,32 @@
+1. Static web server hanya web yang tampilan biasa yang tidak terdapat data yang diproses, sedangkan 
+dynamic kebalikannya. Dimana ada input data yang diproses lalu dimasukkan ke database, dan lain - lain. 
+
+2. 	a.  Client side meminta http request kemudian diterima oleh server
+    	dimana terdapat file seperti html css js, dan response yang ditampilkan
+    	hanya berupa file tadi, tidak ada processing data yang terjadi
+	b. Client side meminta GET request dan akan masuk ke web server
+   	dan selanjutnya masuk ke dalam web application. Selanjutnya didalam web application
+   	dilakukan processing data dari database dan akan dibawa ke web server
+   	dan dilakukan response.
+
+3. 	a. Melakukan perubahan data pada database
+	b. Mengkontrol akses ke content
+	c. Menyimpan informasi ke database
+	d. Memberikan informasi atau notifikasi ke pengguna
+
+4. REST (Representational State Trasfer) adalah sebuah standar arsitektur komunikasi berbasis web.
+REST umumnya menggunakan HTTP sebagai protokol komunikasi datanya.
+Yang dimana berfungsi untuk memudahkan system dalam berkomunikasi satu sama lain.
+Pada Restful sendiri dikarakterkan dari bagaimana client dan server dipisahkan dan stateless.
+Pada REST, implementasi antara client dan server dapat dilakukan sendiri sendiri tanpa tau satu sama lain,
+yang artinya code pada client side dapat diubah kapanpun tanpa mempengaruhi Server side.
+
+5. 	a. GET berfungsi untuk mengambil resource
+	b. POST berfungsi untuk membuat resource baru
+	c. PUT berfungsi untuk mengubah resource tertentu
+	d. DELETE berfungsi untuk menghapus resource tertentu
+
+6. Fungsi dari response code adalah untuk memberikan respon kepada client berupa informasi
+atas requuest yang telah dilakukan, setiap response code memberikan informasi yang berbeda,
+seperti 200 berarti Ok atau sukses.
+
